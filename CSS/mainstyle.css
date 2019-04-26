@@ -1,0 +1,65 @@
+body {margin:0;}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1.topp {
+	font-size: 30px;
+	font-weight:40;
+	color: green;
+}
+
+h1.text {
+	font-size: 20px;
+	color: yellow;
+}
+
+.topp {
+	background-color: red;
+	height: 50px;
+}
+.bod {
+	background-color: green;
+}
+
+p {
+	font-size: 10px;
+	color: blue;
+}
+
+p.text{ 
+	font-size: 15px;
+	color: black;
+}
+
+
+
+	
